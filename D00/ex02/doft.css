@@ -1,0 +1,217 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   doft.css                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ldevelle <ldevelle@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/10/14 12:42:00 by ldevelle          #+#    #+#             */
+/*   Updated: 2019/10/14 17:22:10 by ldevelle         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+body {
+	background-image: url(resources/doft.jpg);
+	background-repeat: no-repeat;
+	background-position: -87px -77px;
+	background-color: #505050;
+}
+
+*{
+	/* mix-blend-mode: difference; */
+}
+
+h1 {
+	color: navy;
+	margin-left: 20px;
+}
+
+img {
+	opacity: 0.5;
+}
+
+.close_image
+{
+	float: right;
+	margin-right: -23px;
+	margin-top: 106px;
+	width: 23px;
+	height: 21px;
+}
+.reload_image
+{
+	width: 23px;
+	height: 21px;
+	float: right;
+	margin-top: 7px;
+	margin-right: 9px;
+}
+.loupe_image
+{
+	position: absolute;
+	top: 28px;
+	left: 1285px;
+}
+
+.top_image
+{
+	margin-top: 12px;
+	margin-left: 8px;
+	width: 427px;
+	height: 105px;
+}
+
+.top_screen
+{
+	margin-top: 18px;
+	margin-left: 143px;
+	margin-right: 35px;
+	width: 1420px;
+	height: 137px;
+}
+
+.center_screen
+{
+	margin-top: 18px;
+	margin-left: 173px;
+	margin-right: 13px;
+	display: flex;
+	flex-direction: row;
+	width: 1360px;
+}
+
+.box{
+
+}
+
+.grey
+{
+	/* background-color: #909090; */
+	border: solid red 1px;
+	border-radius: 10px;
+	box-shadow: 10px 5px 5px black;
+	opacity: 0.5;
+}
+
+.grey_box_left
+{
+	display: flex;
+	flex-direction: column;
+	padding-left: 32px;
+	padding-right: 32px;
+	height: 423px;
+}
+
+.arrow_icon
+{
+	width: 70px;
+	height: 74px;
+	padding-top: 14px;
+}
+
+.hand_icon
+{
+	width: 70px;
+	height: 70px;
+	padding-top: 9px;
+}
+
+.eye_icon
+{
+	width: 70px;
+	height: 65px;
+	margin-top: 5px;
+	border: 5px solid red;
+	border-radius: 5px;
+	margin-left: -5px;
+}
+
+.tools_icon
+{
+	width: 70px;
+	height: 70px;
+	padding-top: 5px;
+}
+
+.chat_icon
+{
+	width: 70px;
+	height: 71px;
+	padding-top: 10px;
+}
+
+.grey_box_right
+{
+	display: flex;
+	flex-direction: column;
+	padding-left: 32px;
+	padding-right: 8px;
+	height: 425px;
+	width: 140px;
+	margin-left: 27px;
+	margin-right: 27px;
+	background-color: #909090;
+}
+.book_icon
+{
+	width: 72px;
+	height: 97px;
+	padding-top: 16px;
+	padding-left: 2px
+}
+.towel_icon
+{
+	width: 74px;
+	height: 57px;
+	padding-top: 7px;
+}
+.wall_icon
+{
+	width: 122px;
+	height: 71px;
+	padding-top: 3px;
+	margin-left: -22px;
+}
+
+.grey_box_cent
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 28px;
+	padding-left: 11px;
+	padding-right: 10px;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	background-color: #909090;
+}
+
+.big_image
+{
+	width: 1000px;
+	height: 560px;
+}
+
+.green_box
+{
+	position: absolute;
+	top: 681px;
+	left: 106px;
+	width: 520px;
+	height: 168px;
+	background-color: #88FF89;
+	opacity: 0.5;
+	border: solid red 1px;
+	border-radius: 10px;
+	padding-left: 4px;
+}
+
+.normal_text
+{
+	font-family: sans-serif;
+	color: red;
+}
+
+strong
+{
+	font-family: georgia;
+}
