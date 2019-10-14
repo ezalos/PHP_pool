@@ -6,7 +6,7 @@
 /*   By: ldevelle <ldevelle@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/14 19:01:02 by ldevelle          #+#    #+#             */
-/*   Updated: 2019/10/14 19:01:19 by ldevelle         ###   ########.fr       */
+/*   Updated: 2019/10/14 20:07:00 by ldevelle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ td, p{
 	border: none;
 }
 .autres_non_metaux{
-	background-color: #96ceb4;
+	background-color: #c6cbef;
 }
 .metalloides{
 	background-color: #ffeead;
@@ -80,19 +80,19 @@ td, p{
 	background-color: #88d8b0;
 }
 .metaux_pauvres{
-	background-color: #a8e6cf;
+	background-color: #f2a6a6;
 }
 .gaz_nobles{
-	background-color: #dcedc1;
+	background-color: #484c7f;
 }
 .halogenes{
 	background-color: #ffd3b6;
 }
 .lanthanides{
-	background-color: #ffaaa5;
+	background-color: #ac8daf;
 }
 .actinides{
-	background-color: #ff8b94;
+	background-color: #ddb6c6;
 }
 .non_classes{
 	background-color: #dddddd;

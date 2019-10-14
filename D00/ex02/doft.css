@@ -6,7 +6,7 @@
 /*   By: ldevelle <ldevelle@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/14 12:42:00 by ldevelle          #+#    #+#             */
-/*   Updated: 2019/10/14 18:49:57 by ldevelle         ###   ########.fr       */
+/*   Updated: 2019/10/14 21:32:21 by ldevelle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@ body {
 	background-position: -87px -77px;
 	background-color: #505050;
 }
-
 
 .grey
 {
@@ -171,6 +170,7 @@ img {
 	height: 71px;
 	padding-top: 3px;
 	margin-left: -22px;
+	background-image: url(resources/brick.jpg);
 }
 
 .grey_box_cent

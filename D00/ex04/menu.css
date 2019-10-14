@@ -1,0 +1,117 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   menu.css                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ldevelle <ldevelle@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/10/14 19:01:02 by ldevelle          #+#    #+#             */
+/*   Updated: 2019/10/14 22:52:15 by ldevelle         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+/* Dropdown Button */
+body
+{
+	background-color: #f1d4d4;
+}
+
+.dream_kebab
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	align-self: center;
+	max-height: 77%;
+	max-width: 100%;
+}
+
+.title{
+	display: flex;
+	background-color: #293462;
+	/* border: 3vw solid white; */
+	/* border-spacing: -2vw; */
+  	outline: 1vw solid white;
+  	outline-offset: -2vw;
+}
+
+.title p {
+  color: white;
+  width: 15vh;
+  margin: 5vh;
+  padding: 3vh;
+  font-size: 2vw;
+}
+
+.my_menu{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-around;
+}
+
+.wesh{
+	/* margin: 500px; */
+}
+
+p
+{
+	align-text: center;
+}
+
+.category {
+  background-color: #293462;
+  color: white;
+  font-size: 2vw;
+  width: 15vw;
+  border: none;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ddb6c6;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 19vw;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+  color: black;
+  text-decoration: none;
+  display: block;
+  width: 15vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content p:hover {background-color: #ac8daf;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .category {background-color: #ac8daf;}
